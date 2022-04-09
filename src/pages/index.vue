@@ -13,7 +13,7 @@
             <router-link to="/button">按钮</router-link>
           </el-menu-item>
           <el-menu-item index="2">
-            <span>Navigator Four</span>
+            <router-link to="/input">input</router-link>
           </el-menu-item>
         </el-menu>
       </el-aside>
