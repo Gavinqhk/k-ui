@@ -9,7 +9,7 @@
           @open="handleOpen"
           @close="handleClose"
         >
-          <el-menu-item v-for="(item, index) in list" :index="'' + index">
+          <el-menu-item v-for="(item, index) in list" :key="item.compName" :index="'' + index">
             <router-link :to="item.compName">{{ item.compZhName }}</router-link>
           </el-menu-item>
         </el-menu>
