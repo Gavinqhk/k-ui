@@ -12,5 +12,3 @@ const handleClickBtn = (test: string) => {
   console.log(test)
 }
 </script>
-
-<style></style>

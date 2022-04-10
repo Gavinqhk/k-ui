@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import Index from '../pages/index.vue'
-import Button from '../pages/button.vue'
-import Input from '../pages/input.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -14,12 +12,7 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/button',
         name: 'Button',
-        component: Button
-      },
-      {
-        path: '/input',
-        name: 'Input',
-        component: Input
+        component: () => import('../../docs/Button/index.md')
       }
     ]
   }

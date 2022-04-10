@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   ...baseConfig,
   build: {
-    outDir: 'dist',
+    outDir: 'lib',
     lib: {
       entry: resolve(__dirname, '../packages/index.ts'),
       name: 'K_UI',

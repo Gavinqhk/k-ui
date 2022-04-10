@@ -310,6 +310,16 @@
     vue "^3.0.5"
     vue-router "^4.0.14"
 
+"@qhk/k_ui@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@qhk/k_ui/-/k_ui-0.0.2.tgz#41473651e7727db705f05613a1254bec5aa23a6b"
+  integrity sha512-R5+NVKjXJM+ZpT5g5tXDVi5EhsWlU/WP63exyviQtAkYwLWTEKWto4srO0E19SLGuYgLR5HeQwUevDmZaLWj4g==
+  dependencies:
+    "@qhk/k_ui" "^0.0.1"
+    element-plus "^2.1.7"
+    vue "^3.0.5"
+    vue-router "^4.0.14"
+
 "@rollup/pluginutils@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.0.tgz#a14bbd058fdbba0a5647143b16ed0d86fb60bd08"
@@ -2335,6 +2345,11 @@ prettier@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+
+prismjs@^1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.27.0.tgz#bb6ee3138a0b438a3653dd4d6ce0cc6510a45057"
+  integrity sha512-t13BGPUlFDR7wRB5kQDG4jjl7XeuH6jbJGt11JHPL96qwsEHNX2+68tFXqc1/k+/jALsbSWJKUOT/hcYAZ5LkA==
 
 promise@^7.0.1:
   version "7.3.1"
