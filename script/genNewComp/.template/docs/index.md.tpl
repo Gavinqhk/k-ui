@@ -1,0 +1,3 @@
+# {{ compName }}
+
+<Preview name="demo"/>

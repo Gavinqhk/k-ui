@@ -13,6 +13,7 @@
     "dev": "vite --host",
     "build:doc": "vue-tsc --noEmit && vite build",
     "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
+    "gen": "node ./script/genNewComp/index.js",
     "lint": "eslint 'src/**/*.{ts{,x},vue}' --fix",
     "prettier": "prettier --write ."
   },
@@ -34,7 +35,10 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
+    "fs-extra": "^10.0.1",
+    "handlebars": "^4.7.7",
     "husky": "^7.0.0",
+    "inquirer": "^8.2.2",
     "prettier": "^2.6.2",
     "sass": "^1.49.11",
     "sass-loader": "^12.6.0",
