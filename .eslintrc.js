@@ -30,6 +30,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-var-requires': 0,
     'no-empty': ['error', { allowEmptyCatch: true }],
     'vue/no-unused-vars': [
       'error',

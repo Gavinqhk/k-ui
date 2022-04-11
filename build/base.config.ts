@@ -7,7 +7,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, '../src'),
-      packages: resolve(__dirname, '../packages')
+      packages: resolve(__dirname, '../packages'),
+      docs: resolve(__dirname, '../docs')
     }
   },
   plugins: [
