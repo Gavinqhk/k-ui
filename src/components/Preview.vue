@@ -24,7 +24,8 @@ import '../assets/style/prism.css'
 const props = defineProps({
   name: {
     require: true,
-    type: String
+    type: String,
+    default: ''
   }
 })
 const com = shallowRef()
