@@ -18,7 +18,8 @@
   "scripts": {
     "dev": "vite --host",
     "build:doc": "vue-tsc --noEmit && vite build",
-    "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
+    "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.js",
+    "build": "node ./build/lib.config.js",
     "gen": "node ./script/genNewComp/index.js",
     "serve": "vite preview",
     "lint": "eslint 'src/**/*.{ts{,x},vue}' --fix",

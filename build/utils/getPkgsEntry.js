@@ -6,7 +6,7 @@ module.exports = function getPkgsEntry(exclude = ['index.ts', 'list.json']) {
   const dirs = fs.readdirSync(pkgsPath)
   const entrys = dirs.reduce((pre, curr) => {
     if (!exclude.includes(curr)) {
-      pre[curr] = resolve(__dirname, `../../packages/${curr}/index.ts`)
+      pre[curr] = `../../packages/${curr}/index.ts`
     }
     return pre
   }, {})
