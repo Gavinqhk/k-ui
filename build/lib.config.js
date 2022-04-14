@@ -9,6 +9,8 @@ const entrys = getPkgsEntry()
 console.log('entrys===:', entrys)
 
 const baseConfig = defineConfig({
+  configFile: false,
+  publicDir: false,
   plugins: [vue(), dts()]
 })
 
@@ -40,25 +42,25 @@ const buildAll = async () => {
   )
 }
 
-const buildSingle = async () => {
-  await build(
-    defineConfig({
-      ...baseConfig,
-      build: {
-        outDir: `lib/Button`,
-        lib: {
-          entry: resolve(__dirname, '../packages/Button/index.ts'),
-          name: 'K_UI',
-          fileName: format => `kui.Button.${format}.js`
-        },
-        rollupOptions
-      }
-    })
-  )
-}
+// const buildSingle = async () => {
+//   await build(
+//     defineConfig({
+//       ...baseConfig,
+//       build: {
+//         outDir: `lib/Button`,
+//         lib: {
+//           entry: resolve(__dirname, '../packages/Button/index.ts'),
+//           name: 'K_UI',
+//           fileName: format => `kui.Button.${format}.js`
+//         },
+//         rollupOptions
+//       }
+//     })
+//   )
+// }
 
 const buildLib = async () => {
   await buildAll()
-  buildSingle()
+  // buildSingle()
 }
 buildLib()

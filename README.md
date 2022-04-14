@@ -336,6 +336,15 @@ onMounted(async () => {
 目前遇到的问题，就是组件库打包问题。
   
 1. 如何打包通用组件库（umd，es模块打包等问题）
+vite 配置 rollupOptions->input->format设置umd和es
 2. 组件库如何做到按需加载（包括js，css这就需要每个组件另外单独打包）
+按需加载实际上是每个组件单独打包并导出，css则需要在打包成功之后用脚本把css文件应用到js文件中
 3. 目前打包css样式需要单独引入，如何做到自动引入
 4. 组件库发布npm
+发布组件库：npm login -> npm publish
+需要注意的是package.json 注意配置main(umd方式应用时包管理自动读取该文件) module(es模式使用时包管理自动读取该文件)
+若需要按需加载使用的话需要每个组件文件夹中配置package.json
+
+多个库管理的话可以使用monorepo，类似vue。安装完vue之后可以使用vue/cli这是因为主包里面包含了多个子包。也可以单独引用子包。
+
+任务：尝试使用monorepo改造组件库。包含1、组件库，2、cli工具，可命令交互式创建组件。等等
