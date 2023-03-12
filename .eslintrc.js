@@ -11,9 +11,7 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier',
-    '@vue/prettier',
-    '@vue/prettier/@typescript-eslint'
+    'prettier'
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -32,6 +30,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-var-requires': 0,
     'no-empty': ['error', { allowEmptyCatch: true }],
     'vue/no-unused-vars': [
       'error',

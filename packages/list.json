@@ -1,0 +1,38 @@
+[
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "这是一个按钮",
+    "compClassName": "button"
+  },
+  {
+    "compName": "Input",
+    "compZhName": "输入框",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "input"
+  },
+  {
+    "compName": "Upload",
+    "compZhName": "上传",
+    "compDesc": "上传组件",
+    "compClassName": "upload"
+  },
+  {
+    "compName": "Img",
+    "compZhName": "图片",
+    "compDesc": "图片组件",
+    "compClassName": "img"
+  },
+  {
+    "compName": "TableTable",
+    "compZhName": "表格",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "table-table"
+  },
+  {
+    "compName": "Input1",
+    "compZhName": "输入框",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "input1"
+  }
+]
