@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header class="header">K_UI</el-header>
+    <el-header class="header">k-ui</el-header>
     <el-container>
       <el-aside class="aside">
         <el-menu

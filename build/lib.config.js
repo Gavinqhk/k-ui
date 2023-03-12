@@ -33,7 +33,7 @@ const buildAll = async () => {
         outDir: 'lib',
         lib: {
           entry: resolve(__dirname, '../packages/index.ts'),
-          name: 'K_UI',
+          name: 'k-ui',
           fileName: format => `kui.${format}.js`
         },
         rollupOptions
@@ -50,7 +50,7 @@ const buildAll = async () => {
 //         outDir: `lib/Button`,
 //         lib: {
 //           entry: resolve(__dirname, '../packages/Button/index.ts'),
-//           name: 'K_UI',
+//           name: 'k-ui',
 //           fileName: format => `kui.Button.${format}.js`
 //         },
 //         rollupOptions

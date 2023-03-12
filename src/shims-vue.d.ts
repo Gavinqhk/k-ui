@@ -10,5 +10,5 @@ declare module '*.md' {
   export default Component
 }
 
-declare module '@qhk/k_ui'
+declare module '@qhk/k-ui'
 declare module 'prismjs'

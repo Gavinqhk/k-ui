@@ -301,31 +301,31 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.4.tgz#d8c7b8db9226d2d7664553a0741ad7d0397ee503"
   integrity sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==
 
-"@qhk/k_ui@^0.0.1":
+"@qhk/k-ui@^0.0.1":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@qhk/k_ui/-/k_ui-0.0.1.tgz#8203f4d1693bc1967e8298775b8fe480510657d8"
+  resolved "https://registry.yarnpkg.com/@qhk/k-ui/-/k-ui-0.0.1.tgz#8203f4d1693bc1967e8298775b8fe480510657d8"
   integrity sha512-5tIWgSL8icmEXLw/Qq6HMFBeCJMlIK21abkMrdL4roB0xxhB9U2bWOHfB+1fT6VunoAwO3JXtEWYX2ku0S+Thw==
   dependencies:
     element-plus "^2.1.7"
     vue "^3.0.5"
     vue-router "^4.0.14"
 
-"@qhk/k_ui@^0.0.2":
+"@qhk/k-ui@^0.0.2":
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@qhk/k_ui/-/k_ui-0.0.2.tgz#41473651e7727db705f05613a1254bec5aa23a6b"
+  resolved "https://registry.yarnpkg.com/@qhk/k-ui/-/k-ui-0.0.2.tgz#41473651e7727db705f05613a1254bec5aa23a6b"
   integrity sha512-R5+NVKjXJM+ZpT5g5tXDVi5EhsWlU/WP63exyviQtAkYwLWTEKWto4srO0E19SLGuYgLR5HeQwUevDmZaLWj4g==
   dependencies:
-    "@qhk/k_ui" "^0.0.1"
+    "@qhk/k-ui" "^0.0.1"
     element-plus "^2.1.7"
     vue "^3.0.5"
     vue-router "^4.0.14"
 
-"@qhk/k_ui@^0.0.3":
+"@qhk/k-ui@^0.0.3":
   version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@qhk/k_ui/-/k_ui-0.0.3.tgz#9794adf1ace2fba8e9bd2e260fcab4d329eb67d5"
+  resolved "https://registry.yarnpkg.com/@qhk/k-ui/-/k-ui-0.0.3.tgz#9794adf1ace2fba8e9bd2e260fcab4d329eb67d5"
   integrity sha512-NNofwvt555taEnidIQjxqd4Shznqhw0uu88TEkom1tEOWjId9TTFIRcjgbpgYsj4Jo6hFiQOMaxaGGahW5m6jg==
   dependencies:
-    "@qhk/k_ui" "^0.0.2"
+    "@qhk/k-ui" "^0.0.2"
     element-plus "^2.1.7"
     prismjs "^1.27.0"
     vue "^3.0.5"

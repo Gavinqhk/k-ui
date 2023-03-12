@@ -14,7 +14,7 @@ export default defineConfig({
     outDir: 'lib',
     lib: {
       entry: resolve(__dirname, '../packages/index.ts'),
-      name: 'K_UI',
+      name: 'k-ui',
       fileName: format => `kui.${format}.js`
     },
     rollupOptions: {
